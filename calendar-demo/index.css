@@ -1,0 +1,18 @@
+table * {
+	border-spacing: 0px !important;
+}
+
+td, th {
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	padding: 0 !important;
+	height: 30px;
+	width: 100px !important;
+}
+td:first-child, th:first-child {
+	border-left: 1px solid grey;
+}
+th {
+	border-top: 1px solid grey;
+	height: 30px;
+}
